@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Laboratorio2</string>
+    <string name="hint_text_username">Username</string>
+    <string name="hint_text_password">Password</string>
+</resources>
