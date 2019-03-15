@@ -30,5 +30,14 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        mBoton_action.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View v) {
+                mText.setText(mPassword.getText());
+                mBoton_action.setText("Long CLick");
+                return true;
+            }
+        });
+
     }
 }
